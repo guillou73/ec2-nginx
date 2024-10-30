@@ -13,6 +13,3 @@ COPY app2/ /usr/share/nginx/html/app2/
 
 # Expose ports for each app
 EXPOSE 8080 8090
-
-# Start Nginx in the foreground (this is the default CMD, so it's optional)
-CMD ["nginx", "-g", "daemon off;"]
