@@ -1,1 +1,0 @@
-echo '<html><head><title>App 2</title></head><body><h1>Welcome to Application 2</h1></body></html>' > app2/index.html
